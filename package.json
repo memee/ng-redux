@@ -38,8 +38,8 @@
   },
   "dependencies": {
     "invariant": "^2.1.0",
-    "lodash.isobject": "^3.0.2",
-    "lodash.isplainobject": "^3.2.0",
+    "lodash": "^4.16.4",
+    "lodash-es": "^4.16.4",
     "redux": "^3.0.0"
   },
   "czConfig": {
