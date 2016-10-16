@@ -5,7 +5,6 @@ import invariant from 'invariant';
 import isPlainObject from 'lodash.isplainobject';
 import isFunction from 'lodash.isfunction';
 import isObject from 'lodash.isobject';
-import assign from 'lodash.assign';
 
 const defaultMapStateToTarget = () => ({});
 const defaultMapDispatchToTarget = dispatch => ({dispatch});
@@ -66,7 +65,7 @@ function updateTarget(target, StateSlice, dispatch) {
   if(isFunction(target)) {
     target(StateSlice, dispatch);
   } else {
-    assign(target, StateSlice, dispatch);
+    Object.assign(target, StateSlice, dispatch);
   }
 }
 
