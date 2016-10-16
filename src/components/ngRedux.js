@@ -4,9 +4,8 @@ import {createStore, applyMiddleware, compose, combineReducers} from 'redux';
 import digestMiddleware from './digestMiddleware';
 import isFunction from '../utils/isFunction';
 
-import curry from 'lodash.curry';
 
-const typeIs = curry((type, val) => typeof val === type);
+const typeIs = type => (type, val) => typeof val === type;
 const isObject = typeIs('object');
 const isString = typeIs('string');
 
