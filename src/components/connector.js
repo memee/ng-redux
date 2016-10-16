@@ -1,9 +1,9 @@
+import isFunction from '../utils/isFunction';
 import shallowEqual from '../utils/shallowEqual';
 import wrapActionCreators from '../utils/wrapActionCreators';
 import invariant from 'invariant';
 
 import isPlainObject from 'lodash.isplainobject';
-import isFunction from 'lodash.isfunction';
 import isObject from 'lodash.isobject';
 
 const defaultMapStateToTarget = () => ({});

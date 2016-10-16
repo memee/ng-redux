@@ -2,9 +2,9 @@ import Connector from './connector';
 import invariant from 'invariant';
 import {createStore, applyMiddleware, compose, combineReducers} from 'redux';
 import digestMiddleware from './digestMiddleware';
+import isFunction from '../utils/isFunction';
 
 import curry from 'lodash.curry';
-import isFunction from 'lodash.isfunction';
 
 const typeIs = curry((type, val) => typeof val === type);
 const isObject = typeIs('object');
