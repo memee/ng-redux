@@ -6,8 +6,8 @@ reducing size lib from original 39KB to 15KB
 
 For Angular 2 see [ng2-redux](https://github.com/wbuchwalter/ng2-redux).
 
-[![build status](https://img.shields.io/travis/wbuchwalter/ng-redux/master.svg?style=flat-square)](https://travis-ci.org/wbuchwalter/ng-redux)
-[![npm version](https://img.shields.io/npm/v/ng-redux.svg?style=flat-square)](https://www.npmjs.com/package/ng-redux)
+[![build status](https://img.shields.io/travis/memee/ng-redux-lite/development.svg?style=flat-square)](https://travis-ci.org/memee/ng-redux-lite)
+[![npm version](https://img.shields.io/npm/v/ng-redux-lite.svg?style=flat-square)](https://www.npmjs.com/package/ng-redux-lite)
 
 
 *ngRedux lets you easily connect your angular components with Redux.*
