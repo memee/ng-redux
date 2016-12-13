@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wbuchwalter/ng-redux"
+    "url": "https://github.com/memee/ng-redux-lite"
   },
   "author": "William Buchwalter <wbuchwalter@gmail.com> (http://github.com/wbuchwalter)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wbuchwalter/ng-redux/issues"
+    "url": "https://github.com/memee/ng-redux-lite/issues"
   },
-  "homepage": "https://github.com/wbuchwalter/ng-redux#readme",
+  "homepage": "https://github.com/memee/ng-redux-lite#readme",
   "devDependencies": {
     "babel-cli": "^6.4.0",
     "babel-core": "^6.4.0",
