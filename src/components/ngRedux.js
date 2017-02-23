@@ -31,7 +31,7 @@ export default function ngReduxProvider() {
 
     _reducer = reducer;
     _reducerIsObject = isObject(reducer);
-    _storeEnhancers = storeEnhancers
+    _storeEnhancers = storeEnhancers = [];
     _middlewares = middlewares || [];
     _initialState = initialState;
   };
