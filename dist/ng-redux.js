@@ -110,7 +110,7 @@
 
 	    _reducer = reducer;
 	    _reducerIsObject = isObject(reducer);
-	    _storeEnhancers = storeEnhancers;
+	    _storeEnhancers = storeEnhancers = [];
 	    _middlewares = middlewares || [];
 	    _initialState = initialState;
 	  };
